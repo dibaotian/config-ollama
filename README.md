@@ -12,3 +12,7 @@
 #### reload
 #### #>sudo systemctl daemon-reload
 #### #>sudo systemctl restart ollama
+
+#### down grade
+#### for example install the old version 0.1.42
+#### #>curl -fsSL https://ollama.com/install.sh | sed 's#https://ollama.com/download#https://github.com/jmorganca/ollama/releases/download/v0.1.42#' | sh
