@@ -1,4 +1,7 @@
-# config-ollama
+# config-ollama （for Linux)
+
+#### Install ollama
+#### #>curl https://ollama.ai/install.sh | sh
 
 #### edit the ollama configure file
 #### #>sudo systemctl edit ollama.service
