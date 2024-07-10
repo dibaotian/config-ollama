@@ -1,6 +1,6 @@
 # config-ollama （for Linux)
 
-#### Install ollama
+#### Install ollama (latest version)
 #### #>curl https://ollama.ai/install.sh | sh
 
 #### edit the ollama configure file
@@ -16,6 +16,6 @@
 #### #>sudo systemctl daemon-reload
 #### #>sudo systemctl restart ollama
 
-#### down grade
+#### down grade, or special version
 #### for example install the old version 0.1.42
 #### #>curl -fsSL https://ollama.com/install.sh | sed 's#https://ollama.com/download#https://github.com/jmorganca/ollama/releases/download/v0.1.42#' | sh
