@@ -38,4 +38,10 @@ echo "OLLAMA_HOST=0.0.0.0:11434" | sudo tee -a /etc/systemd/system/ollama.servic
 # 重新加载服务并启动
 sudo systemctl daemon-reload
 sudo systemctl start ollama
+
+# 检查端口监听状态
+ss -tuln | grep 11434
+
+# 预期输出应包含 0.0.0.0:11434
+tcp   LISTEN 0      4096          0.0.0.0:11434       0.0.0.0:*
 ```
